@@ -1,0 +1,13 @@
+import unittest
+from app import hello
+
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+
+    def test_upper(self):
+      result = hello()
+        self.assertEqual(result,'hello')
+
+if __name__ == '__main__':
+    unittest.main()
